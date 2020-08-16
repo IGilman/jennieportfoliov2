@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "jennieportv2"
+    }
+  },
+  "defaultProject": "jennieportv2",
+  "cli": {
+    "analytics": "bda0164a-13f7-446a-8319-6a5af15a37b4"
+  }
 }

@@ -1,0 +1,112 @@
+.aboutme-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    flex: 1;
+}
+
+.headshot-container{
+    height: 350px;
+}
+
+.headshot{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contact-container{
+    display: flex;
+}
+
+.header-container{
+    flex: 1;
+}
+
+.icon-container{
+    display: flex;
+    width: 50%;
+    flex: 2;
+}
+
+.icon{
+    font-size: 3rem;
+    flex: 1;
+}
+
+.fa-envelope-open{
+    position: relative;
+}
+
+.tooltip{
+    visibility: hidden;
+    /* width: 120px; */
+    background-color: black;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .fa-envelope-open:hover .tooltip{
+    visibility: visible;
+  }
+
+  /* https://www.w3schools.com/css/css_tooltip.asp */
+
+/*
+.notcopied{
+    display: none;
+}
+
+.copymsg{
+    display: initial;
+    position: fixed;
+    border: 2px solid yellow;
+    background-color: green;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+}
+
+.transition{
+    opacity: 0;
+}
+
+still need to figure out how to transition box away */
+
+
+@media only screen and (min-width: 768px){
+
+    .aboutme-container{
+        flex-direction: row;
+    }
+
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .about{
+        height: unset;
+    }
+
+    .headshot-container{
+        max-height: 450px;
+    }
+
+    .icon-container{
+        justify-content: space-evenly;
+    }
+
+}
+
