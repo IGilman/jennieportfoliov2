@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, h1, h2, p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionhead{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.headertwo{
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px){
+
+    .sectionhead{
+        font-size: 50px;
+    }
+
+}

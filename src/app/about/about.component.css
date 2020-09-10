@@ -7,52 +7,99 @@
     flex: 1;
 }
 
-.headshot-container{
+/* .headshot-container{
     height: 350px;
-}
+} */
+
 
 .headshot{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.jennie{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.aboutp{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ptwo{
+    margin-top: 20px;
 }
 
 .contact-container{
     display: flex;
+    margin-top: 20px;
 }
 
 .header-container{
     flex: 1;
 }
 
+.contact-info{
+    font-size: 20px;
+
+}
+
 .icon-container{
     display: flex;
     width: 50%;
     flex: 2;
+    justify-content: space-evenly;
+
 }
 
 .icon{
     font-size: 3rem;
-    flex: 1;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.fa-linkedin{
+    color:  #0e76a8;
+}
+
+.fa-instagram-square{   
+  color: #d6249f;
+  /* color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
 }
 
 .fa-envelope-open{
     position: relative;
+    color: #E41F1A;
 }
 
 .tooltip{
     visibility: hidden;
-    /* width: 120px; */
+    width: 125px;
+    margin: 0;
+    font-size: 14px;
     background-color: black;
     color: #fff;
-    padding: 5px 0;
+    text-align: center;
+    padding: 8px 0;
     border-radius: 6px;
     position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+
   }
   
   /* Show the tooltip text when you mouse over the tooltip container */
   .fa-envelope-open:hover .tooltip{
     visibility: visible;
+  }
+
+  .fa-file{
+      color: green;
   }
 
   /* https://www.w3schools.com/css/css_tooltip.asp */
@@ -86,6 +133,16 @@ still need to figure out how to transition box away */
 
 @media only screen and (min-width: 768px){
 
+    .headshot-container{
+        margin-right: 10px;
+    }
+
+
+
+    .jennie{
+        font-size: 84px;
+    }
+
     .aboutme-container{
         flex-direction: row;
     }
@@ -94,18 +151,19 @@ still need to figure out how to transition box away */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-left: 10px;
     }
     
     .about{
         height: unset;
     }
 
-    .headshot-container{
+    /* .headshot-container{
         max-height: 450px;
-    }
+    } */
 
-    .icon-container{
-        justify-content: space-evenly;
+    .contact-container{
+        margin-top: 0;
     }
 
 }

@@ -1,14 +1,28 @@
+.examples-section{
+    border-top: 3px solid black  
+}
+
 .examples-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.example{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .image-container{
     width: 100%;
     height: 300px;
-    border: 1px solid green;
+    border: 1px solid black;
     margin: 10px 0px;
+}
+
+.image-container:hover{
+    cursor: pointer;
 }
 
 .example-img{
@@ -17,6 +31,12 @@
     object-fit: cover;
 }
 
+.example-text{
+    text-align: center ;
+}
+
+
+
 @media only screen and (min-width: 768px){
 
 .examples-container{
@@ -24,6 +44,11 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    
+}
+
+.example{
+    width: 400px;
 }
 
 .image-container{

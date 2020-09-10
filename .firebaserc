@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "jennieportfolio-60a7a": {
+      "hosting": {
+        "jennieportv2": [
+          "jennieportfolio-60a7a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "jennieportfolio-60a7a"
+  }
+}

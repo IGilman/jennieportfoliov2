@@ -12,24 +12,24 @@ export class ExamplesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  islandLink() {
-    window.open("https://paidpost.newyorker.com/article/irelandsvoices/");
+  irelandLink() {
+    window.open("https://drive.google.com/file/d/1snQojBCueOZ3TxFCXJavxlrWytpPPavc/view?usp=sharing");
   }
 
   conanLink() {
     window.open("https://www.youtube.com/watch?v=YV9EbYpXfZs");
   }
 
-  irelandLink() {
-    window.open("https://drive.google.com/file/d/1oOzIixJtAM8O3xVHxU9IjBRAunIyxms2/view");
+  islandLink() {
+    window.open("https://paidpost.newyorker.com/article/irelandsvoices/");
   }
 
   tripAdvisor() {
-    window.open("https://drive.google.com/file/d/157V1CALGN9Krc3MVBxPLn_sSXdVkgID9/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/1_H9gD01ekTi5yVfkpNdXvZDw6FJtXKNU/view?usp=sharing")
   }
 
-  chicago() {
-    window.open("https://drive.google.com/file/d/1dA1AKC-upwQsQ_ULCh7AOmmvVATWefka/view?usp=sharing")
+  hertz() {
+    window.open("https://drive.google.com/file/d/10KDwoyASdJhhp4r3cJlNCDfH-O459Arl/view?usp=sharing")
   }
 
   claws() {
